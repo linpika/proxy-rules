@@ -1,0 +1,9 @@
+name: Emby IPv6 DNS
+desc: Enable IPv6 and use encrypted DNS for emby.killualin.ac.cn.
+
+ipv6: true
+
+dns:
+  ipv6: true
+  nameserver-policy:
+    "emby.killualin.ac.cn": https://dns.alidns.com/dns-query
